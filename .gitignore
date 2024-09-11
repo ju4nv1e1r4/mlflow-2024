@@ -1,7 +1,10 @@
-env_vars.yaml
-
 # Data
 # /data/
+
+
+# MLflow files
+data/processed/mlruns
+
 
 # Mac OS-specific storage files
 .DS_Store

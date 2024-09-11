@@ -1,0 +1,16 @@
+artifact_uri: file:///home/juanvieira/local/houses/src/notebooks/mlruns/891379189986839485/906cdfc7469b4951b1866d56608c6796/artifacts
+deleted_time: 1726085448595
+end_time: 1726085295494
+entry_point_name: ''
+experiment_id: '891379189986839485'
+lifecycle_stage: deleted
+run_id: 906cdfc7469b4951b1866d56608c6796
+run_name: nebulous-shrew-786
+run_uuid: 906cdfc7469b4951b1866d56608c6796
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1726085294103
+status: 3
+tags: []
+user_id: juanvieira

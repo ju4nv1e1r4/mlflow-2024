@@ -1,0 +1,15 @@
+artifact_uri: file:///home/juanvieira/local/houses/src/notebooks/mlruns/891379189986839485/e5101fb01fc2455aa9159bdfe50854a0/artifacts
+end_time: 1726084843925
+entry_point_name: ''
+experiment_id: '891379189986839485'
+lifecycle_stage: active
+run_id: e5101fb01fc2455aa9159bdfe50854a0
+run_name: selective-hog-16
+run_uuid: e5101fb01fc2455aa9159bdfe50854a0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1726084250438
+status: 3
+tags: []
+user_id: juanvieira

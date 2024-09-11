@@ -1,0 +1,15 @@
+artifact_uri: file:///home/juanvieira/local/houses/src/notebooks/mlruns/891379189986839485/26f07a40b5ca4f77b33c7b35ea695531/artifacts
+end_time: 1726085093123
+entry_point_name: ''
+experiment_id: '891379189986839485'
+lifecycle_stage: active
+run_id: 26f07a40b5ca4f77b33c7b35ea695531
+run_name: thundering-stag-918
+run_uuid: 26f07a40b5ca4f77b33c7b35ea695531
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1726085091718
+status: 3
+tags: []
+user_id: juanvieira
