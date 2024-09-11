@@ -37,4 +37,5 @@ Projeto específico para demonstração de uso do MLflow como ferramenta em proj
 Sou apaixonado por python, machine learning e dados. Atualmente sou um cientista de dados que gosta de estudar engenharia de machine learning. 
 
 *Lembre-se, o seu foco determina a sua realidade*
+
 *- Qui-Gon Jinn*
