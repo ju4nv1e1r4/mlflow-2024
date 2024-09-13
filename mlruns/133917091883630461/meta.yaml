@@ -1,0 +1,6 @@
+artifact_location: file:///home/juanvieira/local/houses/mlruns/133917091883630461
+creation_time: 1726250590517
+experiment_id: '133917091883630461'
+last_update_time: 1726250590517
+lifecycle_stage: active
+name: house-prices-script-py

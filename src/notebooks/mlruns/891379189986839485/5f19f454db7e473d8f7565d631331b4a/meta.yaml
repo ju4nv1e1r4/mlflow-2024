@@ -1,0 +1,15 @@
+artifact_uri: file:///home/juanvieira/local/houses/src/notebooks/mlruns/891379189986839485/5f19f454db7e473d8f7565d631331b4a/artifacts
+end_time: 1726249200376
+entry_point_name: ''
+experiment_id: '891379189986839485'
+lifecycle_stage: active
+run_id: 5f19f454db7e473d8f7565d631331b4a
+run_name: serious-grouse-882
+run_uuid: 5f19f454db7e473d8f7565d631331b4a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1726249197941
+status: 3
+tags: []
+user_id: juanvieira
