@@ -9,6 +9,7 @@ import xgboost
 
 import mlflow
 
+
 def parse_arg():
     parser = argparse.ArgumentParser(description='House Prices ML Predictor')
     parser.add_argument(
