@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1726324527044
+current_stage: None
+description: ''
+last_updated_timestamp: 1726324527044
+name: House Prices Prediction
+run_id: c2cb855ab8be4a8693cfc6975f739b35
+run_link: ''
+source: file:///home/juanvieira/local/houses/mlruns/133917091883630461/c2cb855ab8be4a8693cfc6975f739b35/artifacts/model
+status: READY
+status_message: null
+storage_location: file:///home/juanvieira/local/houses/mlruns/133917091883630461/c2cb855ab8be4a8693cfc6975f739b35/artifacts/model
+user_id: null
+version: 1
