@@ -1,8 +1,9 @@
 artifact_uri: file:///home/juanvieira/local/houses/mlruns/133917091883630461/21dda48c111e4a6082eb6109321587a8/artifacts
+deleted_time: 1729100502194
 end_time: 1726251620279
 entry_point_name: ''
 experiment_id: '133917091883630461'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 21dda48c111e4a6082eb6109321587a8
 run_name: XGboost
 run_uuid: 21dda48c111e4a6082eb6109321587a8

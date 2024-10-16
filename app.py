@@ -4,7 +4,7 @@ import mlflow
 
 app = Flask(__name__)
 
-logged_model = 'runs:/c2cb855ab8be4a8693cfc6975f739b35/model'
+logged_model = 'mlruns/133917091883630461/c2cb855ab8be4a8693cfc6975f739b35/artifacts/model'
 loaded_model = mlflow.pyfunc.load_model(logged_model)
 
 
@@ -39,6 +39,5 @@ def predict():
         return jsonify({'erro': str(e)}), 400
 
 
-# Rodando o servidor
 if __name__ == '__main__':
     app.run(debug=True, port=5001, host='0.0.0.0')
