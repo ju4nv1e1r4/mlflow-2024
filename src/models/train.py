@@ -43,7 +43,7 @@ def parse_arg():
 
 
 
-df = pd.read_csv('data/external/casas.csv')
+df = pd.read_csv('../../data/external/casas.csv')
 
 X = df.drop('preco', axis=1)
 y = df['preco'].copy()

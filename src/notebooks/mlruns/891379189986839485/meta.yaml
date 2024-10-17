@@ -1,6 +1,7 @@
 artifact_location: file:///home/juanvieira/local/houses/src/notebooks/mlruns/891379189986839485
 creation_time: 1726084183232
 experiment_id: '891379189986839485'
-last_update_time: 1726084183232
+last_update_time: 1729172911718
 lifecycle_stage: active
-name: houses-prices-eda
+name: houses-prices
+tags: {}

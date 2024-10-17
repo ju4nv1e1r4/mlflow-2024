@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/297582547897366181
+creation_time: 1729168647458
+experiment_id: '297582547897366181'
+last_update_time: 1729168647458
+lifecycle_stage: active
+name: house-prices-script-py
