@@ -3,11 +3,10 @@ kind: Service
 metadata:
   name: house-service
 spec:
-  type: NodePort
+  type:   LoadBalancer
   selector:
     app: house
   ports:
     - protocol: TCP
-      port: 5001
+      port: 80
       targetPort: 5001
-      nodePort: 30001
