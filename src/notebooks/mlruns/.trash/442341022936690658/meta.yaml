@@ -1,0 +1,7 @@
+artifact_location: mlflow-artifacts:/442341022936690658
+creation_time: 1731722752416
+experiment_id: '442341022936690658'
+last_update_time: 1731722982530
+lifecycle_stage: deleted
+name: opt-model
+tags: {}

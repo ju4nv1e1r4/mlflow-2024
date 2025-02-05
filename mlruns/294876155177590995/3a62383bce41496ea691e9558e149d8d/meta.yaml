@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/294876155177590995/3a62383bce41496ea691e9558e149d8d/artifacts
+end_time: 1738786679679
+entry_point_name: ''
+experiment_id: '294876155177590995'
+lifecycle_stage: active
+run_id: 3a62383bce41496ea691e9558e149d8d
+run_name: Gradient Boosting Model
+run_uuid: 3a62383bce41496ea691e9558e149d8d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738786677709
+status: 3
+tags: []
+user_id: juanvieira

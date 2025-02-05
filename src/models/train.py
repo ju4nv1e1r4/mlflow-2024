@@ -5,9 +5,14 @@ import argparse
 
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error, r2_score
+from sklearn.ensemble import GradientBoostingRegressor
 import xgboost
+from xgboost import XGBClassifier
 
 import mlflow
+import pickle
+import onnxmltools
+from skl2onnx.common.data_types import FloatTensorType
 
 
 def parse_arg():
@@ -28,22 +33,11 @@ def parse_arg():
         default=5,
         help="This parameter controls the maximum depth of the tree."
     )
-
-    parser.add_argument(
-        '--seed',
-        type=int,
-        default=0,
-        help="""
-    Seeds are essentially random numbers or vectors that are used to 
-    initialize various processes, ensuring that the results are not 
-    deterministic and exhibit desirable properties
-    """
-    )
     return parser.parse_args()
 
 
 
-df = pd.read_csv('../../data/external/casas.csv')
+df = pd.read_csv('data/external/casas.csv')
 
 X = df.drop('preco', axis=1)
 y = df['preco'].copy()
@@ -55,28 +49,37 @@ dtest = xgboost.DMatrix(X_test, label=y_test)
 
 def main():
     args = parse_arg()
-    xgb_params = {
+    params = {
         'learning_rate': args.learning_rate,
-        'max_depth': args.max_depth,
-        'seed': args.seed
+        'max_depth': args.max_depth
     }
 
     mlflow.set_tracking_uri('http://127.0.0.1:5000')
-    mlflow.set_experiment('house-prices-script-py')
+    mlflow.set_experiment('house-prices-GB')
 
-    with mlflow.start_run(run_name='XGboost'):
-        mlflow.xgboost.autolog()
-        xgb = xgboost.train(xgb_params, dtrain, evals=[(dtrain,'train')])
+    with mlflow.start_run(run_name='Gradient Boosting Model'):
+        mlflow.sklearn.autolog()
+        model = GradientBoostingRegressor(**params)
+        model.fit(X_train, y_train)
+        predictor = model.predict(X_test)
 
-        xgb_predict = xgb.predict(dtest)
-
-        mse = mean_squared_error(y_test, xgb_predict)
+        mse = mean_squared_error(y_test, predictor)
         rmse = np.sqrt(mse)
-        r2 = r2_score(y_test, xgb_predict)
+        r2 = r2_score(y_test, predictor)
 
         mlflow.log_metric('mse', mse)
         mlflow.log_metric('rmse', rmse)
         mlflow.log_metric('r2', r2)
+
+        # saving model in ONNX
+        initial_type = [("input", FloatTensorType([None, X_train.shape[1]]))]
+
+        onnx_model = onnxmltools.convert_sklearn(model, initial_types=initial_type)
+        with open("model.onnx", "wb") as f:
+            f.write(onnx_model.SerializeToString())
+
+        print("Modelo GradientBoostingRegressor salvo em ONNX com sucesso!")
+
 
 if __name__ == '__main__':
     main()

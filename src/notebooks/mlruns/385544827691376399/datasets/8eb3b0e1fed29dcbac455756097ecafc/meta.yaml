@@ -1,0 +1,9 @@
+digest: '73085979'
+name: dataset
+profile: '{"num_rows": 817, "num_elements": 2451}'
+schema: '{"mlflow_colspec": [{"type": "double", "name": "tamanho", "required": true},
+  {"type": "long", "name": "ano", "required": true}, {"type": "long", "name": "garagem",
+  "required": true}]}'
+source: '{"tags": {"mlflow.user": "juanvieira", "mlflow.source.name": "/home/juanvieira/local/houses/env/lib/python3.11/site-packages/ipykernel_launcher.py",
+  "mlflow.source.type": "LOCAL"}}'
+source_type: code

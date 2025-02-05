@@ -1,0 +1,6 @@
+{
+  "DecisionTreeRegressor_score-2_X_test-2": "DecisionTreeRegressor.score(X=X_test, y=y_test)",
+  "DecisionTreeRegressor_score-3_X_test-3": "DecisionTreeRegressor.score(X=X_test, y=y_test)",
+  "DecisionTreeRegressor_score-4_X_test-4": "DecisionTreeRegressor.score(X=X_test, y=y_test)",
+  "DecisionTreeRegressor_score_X_test": "DecisionTreeRegressor.score(X=X_test, y=y_test)"
+}

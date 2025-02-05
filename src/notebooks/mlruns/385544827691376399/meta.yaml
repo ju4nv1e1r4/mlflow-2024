@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/385544827691376399
+creation_time: 1731722968544
+experiment_id: '385544827691376399'
+last_update_time: 1731722968544
+lifecycle_stage: active
+name: optimize-models

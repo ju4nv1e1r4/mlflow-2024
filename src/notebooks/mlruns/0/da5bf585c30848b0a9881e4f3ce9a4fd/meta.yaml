@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/da5bf585c30848b0a9881e4f3ce9a4fd/artifacts
+end_time: 1731722141157
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: da5bf585c30848b0a9881e4f3ce9a4fd
+run_name: BayesSearchCVDecisionTreeRegressor
+run_uuid: da5bf585c30848b0a9881e4f3ce9a4fd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731722141149
+status: 4
+tags: []
+user_id: juanvieira

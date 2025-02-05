@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/442341022936690658/c418eadff36644b7bfb0ccecf9489210/artifacts
+deleted_time: 1731722982530
+end_time: 1731722963616
+entry_point_name: ''
+experiment_id: '442341022936690658'
+lifecycle_stage: deleted
+run_id: c418eadff36644b7bfb0ccecf9489210
+run_name: BayesSearchCVRandomForestRegressor
+run_uuid: c418eadff36644b7bfb0ccecf9489210
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731722875006
+status: 4
+tags: []
+user_id: juanvieira

@@ -1,0 +1,9 @@
+digest: 19311dc6
+name: dataset
+profile: '{"num_rows": 438, "num_elements": 1314}'
+schema: '{"mlflow_colspec": [{"type": "double", "name": "tamanho", "required": true},
+  {"type": "long", "name": "ano", "required": true}, {"type": "long", "name": "garagem",
+  "required": true}]}'
+source: '{"tags": {"mlflow.user": "juanvieira", "mlflow.source.name": "src/models/train.py",
+  "mlflow.source.type": "LOCAL", "mlflow.source.git.commit": "fa19f591ce584a5e2c40cdc5d49338c98a686172"}}'
+source_type: code

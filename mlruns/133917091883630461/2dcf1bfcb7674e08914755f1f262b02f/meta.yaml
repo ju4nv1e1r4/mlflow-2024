@@ -1,0 +1,15 @@
+artifact_uri: file:///home/juanvieira/local/houses/mlruns/133917091883630461/2dcf1bfcb7674e08914755f1f262b02f/artifacts
+end_time: 1738785217058
+entry_point_name: ''
+experiment_id: '133917091883630461'
+lifecycle_stage: active
+run_id: 2dcf1bfcb7674e08914755f1f262b02f
+run_name: XGboost
+run_uuid: 2dcf1bfcb7674e08914755f1f262b02f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738785214196
+status: 3
+tags: []
+user_id: juanvieira

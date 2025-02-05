@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/6b7b18962be34d1eb6e24d0aed90d754/artifacts
+end_time: 1731722028984
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6b7b18962be34d1eb6e24d0aed90d754
+run_name: BayesSearchCVLinearRegression
+run_uuid: 6b7b18962be34d1eb6e24d0aed90d754
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1731722028963
+status: 4
+tags: []
+user_id: juanvieira
